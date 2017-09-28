@@ -101,7 +101,8 @@
 	private boolean isTimeOut = false;
 ```
 
->初始化程序 onCreate
+> 初始化程序 onCreate
+
 ```
 instance = this;
 init();
@@ -143,7 +144,8 @@ isDestory = SharedPreferenceUtil.getBoolean(MainCeLingActivity.this,
                         			showLayout(1);
                         		}
 ```
->扫描接收的数据的集合
+> 扫描接收的数据的集合
+
 ```
 public class Scan {
 	public int id;
@@ -154,6 +156,7 @@ public class Scan {
 
 ```
 > 注册蓝牙生成的广播
+
 ```
 // 注册接收蓝牙状态返回的广播
 	private void registerBluetooth() {
@@ -216,6 +219,7 @@ public class Scan {
 	};
 ```
 > 连接设备的线程
+
 ```
 //连接设备线程
 	private class ConnectThread extends Thread {
@@ -294,6 +298,7 @@ public class Scan {
 	}
 ```
 > 执行绑定设备的方法
+
 ```
 // 没绑定 先绑定,绑定过得话直接取连接(绑定完之后会走广播去连接) 参数为false
 	private void bondBluetoothDevice(BluetoothDevice device, boolean isOldDevice) {
@@ -324,6 +329,7 @@ public class Scan {
 	}
 ```
 > 连接已经绑定过得设备
+
 ```
 // 连接已经绑定过得设备
 	private void connectBondBluetooth(boolean startSearch) {
@@ -350,6 +356,7 @@ public class Scan {
 		
 ```
 从手机向设备发送消息
+
 ```
 public static final int SLEEP_SEND_TIME = 100;// 再发送指令，延时100ms
 
@@ -461,6 +468,7 @@ public static final int SLEEP_SEND_TIME = 100;// 再发送指令，延时100ms
 	}
 ```
 //按返回键的操作
+
 ```
 //按返回键的操作
 	@Override
@@ -525,6 +533,7 @@ public static final int SLEEP_SEND_TIME = 100;// 再发送指令，延时100ms
                 	}
 ```
 各种弹出框
+
 ```
 // 是否连接设备
 	private void showConnectDialog(final boolean isStart) {
@@ -550,6 +559,7 @@ public static final int SLEEP_SEND_TIME = 100;// 再发送指令，延时100ms
 	}
 ```
 连接超时和发送消息超时
+
 ```
 //连接超时
 	public void startConnectTimer() {
@@ -581,6 +591,7 @@ public static final int SLEEP_SEND_TIME = 100;// 再发送指令，延时100ms
     	}
 ```
 点击按钮的响应  连接蓝牙 并选择批号
+
 ```
 class MyViewOnclicklistener implements View.OnClickListener {
 
@@ -668,6 +679,7 @@ class MyViewOnclicklistener implements View.OnClickListener {
 	}
 ```
 此handler只用于跟蓝牙通讯
+
 ```
 public final Handler sppHandler = new Handler() {
 		public void handleMessage(Message msg) {
@@ -749,6 +761,7 @@ public final Handler sppHandler = new Handler() {
 
 ```
 开启接受信息的线程  和接收任务线程的定义
+
 ```
 //开启接受信息的线程
 	private void startReceiveMessageThread() {
@@ -830,6 +843,7 @@ public final Handler sppHandler = new Handler() {
     	}
 ```
 单例模式
+
 ```
 public static MainCeLingActivity getInstance(){
 		if(instance != null){
