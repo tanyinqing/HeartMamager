@@ -2,6 +2,7 @@
 <center><h6 style="magrin-bottom:0px;text-align:left;font-size:12px;">2017年9月</center>
 
 点击按钮的响应 连接蓝牙 并选择批号
+
 从手机向设备发送消息
 
 
