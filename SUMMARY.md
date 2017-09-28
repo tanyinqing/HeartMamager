@@ -8,6 +8,7 @@
    * [欢迎页WelcomeActivity](activity/欢迎页WelcomeActivity.md)
    * [主页MainActivity](activity/主页MainActivity.md)
    * [智能检测MainCeLingActivity](activity/智能检测MainCeLingActivity.md)
+   * [父类 BaseActivity](activity/父类 BaseActivity.md)
 * [widget自定义控件](widget自定义控件/README.md)   
    * [BufferProgressDialog 进度条](widget自定义控件/BufferProgressDialog 进度条.md)
 
