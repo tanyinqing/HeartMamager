@@ -6,7 +6,8 @@
 从手机向设备发送消息
 
 
->涉及到的变量
+> 涉及到的变量
+
 ```
 //打印日志
 	private static final String TAG = "MainCeLingActivity";
