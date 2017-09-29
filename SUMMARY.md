@@ -6,6 +6,8 @@
    * [DateUtil 时间相关类](util工具/DateUtil.md)
    * [DpPxUtils像素密度转化](util工具/DpPxUtils.md)
    * [FileUtils图片存取删除](util工具/FileUtils.md)
+   * [ImageUtil 图片相关工具](util工具/ImageUtil.md)
+   * [LogcatHelper 日志存储](util工具/LogcatHelper.md)
 * [widget自定义控件](widget自定义控件/README.md)   
    * [BufferProgressDialog 进度条](widget自定义控件/BufferProgressDialog进度条.md)
 * [receiver广播接收器](receiver广播接收器/README.md)   

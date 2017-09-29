@@ -4,6 +4,8 @@
 </center>
 
 > 时间相关的类
+> 判断是否为闰年
+> 得到某月有多少天数
 
 ```
 package com.yikang.heartmark.util;
