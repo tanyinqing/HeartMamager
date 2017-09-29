@@ -1,5 +1,7 @@
 
-<center><h6 style="magrin-bottom:0px;text-align:left;font-size:12px;">2017年9月</center>
+<center><h6 style="magrin-bottom:0px;text-align:left;font-size:12px;">
+2017年9月  小米3手机:D4:97:0B:01:90:4F
+</center>
 
 点击按钮的响应 连接蓝牙 并选择批号
 
