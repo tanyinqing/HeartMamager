@@ -2,9 +2,11 @@
 <img src="/image/page/主页.jpg" title="主页" width="300">
 
 进度条调用的方法
+
 ```
 handlerBase.sendEmptyMessage(ConstantUtil.DIALOG_SHOW);
-```	
+
+```
 进度条的显示
 ```
 public BufferProgressDialog profressDialog = null;
