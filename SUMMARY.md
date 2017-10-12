@@ -1,10 +1,6 @@
 # Summary
 
 * [引言](README.md)
-* [滚轮wheel](滚轮wheel/README.md)   
-   * [WheelView](滚轮wheel/WheelView.md)   
-* [view自定义视图](view自定义控件/README.md)   
-   * [MenuBarView](view自定义控件/MenuBarView.md)   
 * [util工具](util工具/README.md)   
    * [ConnectUtil判断网络是否连接](util工具/ConnectUtil.md)
    * [DateUtil 时间相关类](util工具/DateUtil.md)
@@ -42,9 +38,16 @@
    * [智能检测MainCeLingActivity](activity/智能检测MainCeLingActivity.md)
    * [父类 BaseActivity](activity/父类BaseActivity.md)
    * [弹出时间闹钟提示框的RemindSoundActivity](activity/RemindSoundActivity.md)
+* [滚轮wheel](滚轮wheel/README.md)   
+   * [WheelView](滚轮wheel/WheelView.md)   
+* [wxapi微信客户端回调](wxapi微信客户端回调/README.md)   
+   * [WXEntryActivity](wxapi微信客户端回调/WXEntryActivity.md)   
+* [view自定义视图](view自定义控件/README.md)   
+   * [MenuBarView](view自定义控件/MenuBarView.md)   
 * [onekeyshare一键分享](onekeyshare一键分享/README.md)   
 * [adapter适配器](adapter适配器/README.md)   
 * [application](application/README.md)   
 * [jpush推送](jpush推送/README.md)   
 * [myzxing扫描](myzxing扫描/README.md)   
+* [xunfei讯飞语音](xunfei讯飞语音/README.md)   
 
