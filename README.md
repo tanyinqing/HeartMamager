@@ -7,3 +7,4 @@ D:\workspace\HeartMark   这个是本地的地址
 
 eclipse如何编码 
 </center>
+<img src="/image/page/主页.jpg" title="主页" width="400">
